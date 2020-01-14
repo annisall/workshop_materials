@@ -4,3 +4,6 @@ the materials to the participants and other people who are interested in getting
 
 
 Disclaimer: usually the workshops have slides in addition to code, and they will not be in the repo. 
+
+## Presentation dates
+K-means demo in Turku.py: 23.10.2019
