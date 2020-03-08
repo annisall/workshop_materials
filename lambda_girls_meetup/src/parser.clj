@@ -11,4 +11,5 @@
 (defn get-tweet-map [tweet-contents]
   (-> (select-keys tweet-contents [:lang :id :retweet_count :favorite_count :created_at])
       (merge (get-user-info (:user tweet-contents)))
-      (merge (get-full-tweet-text tweet-contents))))
+      (assoc :text (get-full-tweet-text tweet-contents))
+      prn))
