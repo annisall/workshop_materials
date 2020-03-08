@@ -1,1 +1,5 @@
 .ipynb_checkpoints/
+lambda_girls_meetup/deployment/vars/secrets
+*/pom.xml
+*/.lein-*
+*/target/
